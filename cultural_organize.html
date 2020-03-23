@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cultural IIEST</title>
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
+  <header>
+    CULTURAL IIEST
+  </header>
+  <body>
+    <div class="navbar">
+      <a href="cultural_home.html">Home</a>
+      <a href="cultural_event.html">Upcoming Events</a>
+      <a href="cultural_voln.html">Volunteer for Events</a>
+      <a class="active" href="#">Organize Own Event</a>
+    </div>
+      <form class="organize_event" action="#" method="post">
+        <label for="event_type">Select Event Type:</label>
+        <select id="event_type" required="required">
+          <option hidden disabled selected style="display: none" value=""></option>
+          <option value="Academic">Academic</option>
+          <option value="Cultural">Cultural</option>
+        </select>
+        <br><br><br>
+        <label for="event_date">Select Event Date:</label>
+        <input type="date" name="event_date" value="event_date" required="required">
+        <br><br><br>
+        <label for="description">Event description:</label>
+        <textarea id="description" rows="4" cols="40" maxlength="50" placeholder="Event description"></textarea>
+        <br><br><br>
+        <input type="submit" value="submit">
+      </form>
+  </body>
+</html>

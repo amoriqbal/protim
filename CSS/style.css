@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+body
+{
+  background-color: #FFEBCD;
+}
+header
+{
+  font-size: 400%;
+  font-family: sofia;
+  font-weight: bold;
+  background-color: #00FFFF;
+  color: #8B008B;
+  text-align: center;
+}
+.navbar
+{
+  background-color: #111111;
+  overflow: scroll;
+}
+.navbar a
+{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover
+{
+  background-color: #dddddd;
+  color: black;
+}
+.navbar a.active
+{
+  background-color: #4CAF50;
+  color: white;
+}
+.grid
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.cell
+{
+  text-align: center;
+}
+#cell1
+{
+  background-color: #AAA;
+}
+#cell2
+{
+  background-color: #CCC;
+}
+#cell3
+{
+  background-color: #DDD;
+}
+#cell4
+{
+  background-color: #BBB;
+}
+img
+{
+  border-radius: 8px;
+  height: 200px;
+  width: 200px;
+  padding-top: 10px;
+}
+table
+{
+  width: 100%;
+}
+tr:nth-child(even)
+{
+  background-color: #F0FFFF;
+}
+td
+{
+  text-align: center;
+}
+td a
+{
+  color: #000;
+  text-decoration: none;
+}
+td a:hover
+{
+  color: #00F;
+}
+th, td
+{
+  font-size: 1.2rem;
+}
+.voln, .organize_event
+{
+  text-align: center;
+  padding-top: 100px;
+}
+.voln label, .voln input, .voln option
+{
+  font-size: 2rem;
+}
+#description::placeholder
+{
+  text-align: center;
+}
+
+form.login-form
+{
+  font-size: 1.2rem;
+  text-align: center;
+}
+br.login-form
+{
+  margin-bottom: 30px;
+}
+.submit
+{
+  margin-top: 20px;
+  height: 2rem;
+  width: 5rem;
+  background-color: green;
+  color: yellow;
+}
+#register-link, #login-link
+{
+  padding-top: 50px;
+  text-align: center;
+  font-size: 0.75rem;
+}
+#login-head, #register-head
+{
+  padding-top: 75px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #4CAF50;
+}
